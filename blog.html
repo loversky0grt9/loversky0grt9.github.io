@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPU - Electric Power University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header2">
+        <div class="Header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="./img/Logo20181025.png" width="125px"></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <img src="img/menu.png" class="menu-icon" 
+                    onclick="menutoggle()">
+                </div>
+            <h1>Our Certificate & Programs For 2021</h1>
+    </section>
+<!-- ----BLogs page content------>
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+        <img src="./img/blog1.jpg" alt=""> 
+        <h2>Our Certificate & Programs For 2021</h2>  
+        <p>
+            Equip students with knowledge of algorithms, information technology system design and software system programming. In addition, students are also equipped with knowledge of information technology project management and information technology system operation.
+        </p> 
+        <br>
+        <h3>Software Technology</h3>
+        <p>
+            An information technology engineer specialized in software technology can work at: organizations and enterprises in information technology or information technology application, especially software.
+        </p>
+        <br>
+        <h3>Network Administration and Security</h3>
+        <p>
+            Information Technology Engineer specialized in network administration and security can work at: Information technology organizations, enterprises, especially network security administration or public organizations and enterprises. information technology in operations and production.
+        </p>
+        <br>
+        <h3>E-commerce System</h3>
+        <p>
+            Information Technology Engineers specialized in artificial intelligence and machine vision can work at: Information technology organizations and enterprises, especially artificial intelligence or computer vision. Enterprises use the 4.0 technology platform in operation and management.
+        </p>
+        <br>
+        <h3>Artificial Intelligence and Machine Vision</h3>
+        <p>
+            An information technology engineer specialized in e-commerce systems can work at: Information technology organizations and enterprises, especially developing e-commerce systems or commercial businesses. electronic.
+        </p>
+        </div>
+         
+       <div class="blog-right">
+            <h3>Post Categories</h3> 
+            <div>
+                <span>Software Technology</span>
+                <span>99</span>
+            </div>
+            <div>
+                <span>Network Administration and Security</span>
+                <span>55</span>
+            </div>
+            <div>
+                <span>E-commerce System</span>
+                <span>100</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence and Machine Vision</span>
+                <span>95</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="comment-box">
+        <h3>Leave a comment</h3>     
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn btn">POST COMMENT</button>
+        </form>
+     </div>
+</section>
+
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Electric Power University is a multi-level, multidisciplinary public university whose primary mission is to train high-quality human resources to provide industry and serve socio-economic needs while being a hub. leading scientific and technological research of the Industry.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-youtube"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+
+    <p>Made with <i class="fa fa-heart-o"></i> by Lover Sky</p>
+</section>
+   
+ <!-- ------------------- js for toggle menu-------------- -->
+ <script>
+    var MenuItems = document.getElementById("MenuItems");
+    
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "300px";
+        }
+    else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+    </script>
+</body>
+</html>
